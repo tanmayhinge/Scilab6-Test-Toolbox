@@ -5,8 +5,8 @@
 
 function test_toolboxlib = startModule()
 
-    TOOLBOX_NAME  = "test_toolbox";
-    TOOLBOX_TITLE = "test_toolbox";
+    TOOLBOX_NAME  = "tanmay_toolbox";
+    TOOLBOX_TITLE = "tanmay_toolbox";
 
   mprintf("Start " + TOOLBOX_TITLE + "\n");
 
@@ -15,7 +15,7 @@ function test_toolboxlib = startModule()
     return;
   end
 
-  etc_tlbx  = get_absolute_file_path("test_toolbox.start");
+  etc_tlbx  = get_absolute_file_path("tanmay.start");
   etc_tlbx  = getshortpathname(etc_tlbx);
   root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 

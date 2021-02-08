@@ -11,7 +11,7 @@
 mode(-1)
 lines(0)
 
-toolbox_title = "test_toolbox";
+toolbox_title = "tanmay_toolbox";
 
 Build_64Bits = %t;
 
